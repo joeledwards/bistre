@@ -19,6 +19,12 @@ Simply pipe your bole output into the command-line tool, e.g.:
 node server.js | bistre
 ```
 
+Bistre can prefix each line with an ISO-8601 timestamp:
+
+``` bash
+node server.js | bistre --time
+```
+
 Install locally to use as a module:
 
 ### stream = bistre()
